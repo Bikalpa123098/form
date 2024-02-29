@@ -1,0 +1,57 @@
+/* Basic styling for the form container */
+.container {
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #d04141;
+  }
+  
+  /* Style for input fields */
+ .place{
+    height: 2.5rem;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+ .pass{
+    height: 2.5rem;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  #password{
+    border: 0;
+    box-shadow: 0;
+    outline: 0;
+  }
+  
+  /* Style for the submit button */
+  #submit {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the submit button */
+  #submit:hover {
+    background-color: #45a049;
+  }
+  
+  /* Optional: Add more styles as needed */
